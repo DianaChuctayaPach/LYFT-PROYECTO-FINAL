@@ -1,0 +1,88 @@
+*{
+    outline: 1px solid  cyan;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+.link{
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.boton{
+    position: relative;
+    left: 200px;
+    display: inline-block;
+    margin: 30px;
+
+}
+button{
+    top: 30px;
+    border-radius:5px;
+    padding: 15px;
+    border:2px solid white; 
+    background: transparent;
+    color:white;
+    font-size: 20px;
+}
+button:hover{
+    color: #352384;
+    border: 2px solid #ff00bf
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /*list-style: none;*/
+    /*font-style: none;*/
+}
+.logo{
+    position: relative;
+    float: left; 
+    left: 50px;
+    top: 50px;
+    
+    /*left:right;  */
+}
+header{
+position: fixed;
+background: transparent;
+width: 100%;
+top: 0;
+}
+a:hover{
+    color: #ff00bf;
+}
+
+#seccion1{
+ /*position: relative;   */
+}
+video{
+    position: static;
+}
+#cajaPadre{
+    background-color: white;
+    /*position: relative;*/
+    /*z-index: 2;*/
+    height: 400px;
+    width: 600px;
+    top: 200px;
+    left: 700px;
+    font-weight:bold;
+    
+
+
+}
+.title{
+    color: #352384;
+    position: relative;
+    /*position: relative;*/
+    font-size: 40px;
+}
+.subtitle{
+    color: #352384;
+    position: relative;
+    font-size: 20px;
+}
