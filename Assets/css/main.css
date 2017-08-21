@@ -86,7 +86,43 @@ nav{
     width: 100%;
     background: -webkit-linear-gradient(#582985, #28133E);
 }
+.cajalogin{
+    background: white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 400px;
+    padding: 30px;
+}
+.title{
+    /*position: absolute;*/
+    color: #352384;
+    font-size: 30px;
 
+}
+.subtitle{
+    /*position: absolute;*/
+    color: #352384;
+    font-size: 20px;
+
+}
+#boton_driver{
+    background: #ff00bf;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px ;
+    padding: 10px;
+    border: #ff00bf;
+
+}
+.check{
+    color: #ff00bf;
+}
+#input{
+    margin-top: none;
+    margin-left: none;
+    margin-right: none;
+}
 .cajatexto{
     position: relative;
     background: white;
@@ -97,18 +133,7 @@ nav{
  position: absolute;
  color: #352384;;
 }
-#title{
-    position: absolute;
-    color: #352384;
-    font-size: 30px;
 
-}
-#subtitle{
-    position: absolute;
-    color: #352384;
-    font-size: 20px;
-
-}
 #seccion2{
      
      width: 100%;
@@ -190,13 +215,12 @@ footer{
   /*top: 10px;*/
 }
 .menufinal2{
-    /*position: relative;*/
-    /*margin-left: 400px;*/
+    margin-top: 0;
     width: 300px;
-    /*margin-top: 10px;*/
+    
 }
 #final div{
-    /*float: left;*/
+    
     display: inline-block;
 }
 .final{
