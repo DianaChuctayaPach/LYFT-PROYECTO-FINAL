@@ -119,9 +119,10 @@ nav{
     color: #ff00bf;
 }
 #input{
-    margin-top: none;
-    margin-left: none;
-    margin-right: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom:2px solid #000000"
 }
 .cajatexto{
     position: relative;
