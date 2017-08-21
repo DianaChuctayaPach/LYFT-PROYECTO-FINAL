@@ -5,47 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>lyft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
     <link rel="stylesheet" type="text/css" href="Assets/css/main.css">
     <link rel="shortcut icon" type="img/x-icon" href="Assets/img/lyft.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
-<body>
-    <header>
-        <div class="menu-container">
-            <img class="logo" src="Assets/img/logo-white.png" alt="logo" width="70px" height="70px">
-            <a href="" class="text-uppercase link">Drive</a>
-            <a href="" class="text-uppercase link">Explore</a>
-            <a href="#" class="text-uppercase link">Help</a>
-            <button  class="boton" id="login" type="">Login in</button>
-            <button class="boton" id="sign" type="">Sign up</button>
-        </div>
-    </header>
-     
-    
+<body id="body">
+  <div>
+    <header class="background" >
+        <nav id="nav-header" class="header">
+            <div class="nav-bar">
+                <a href="index.html" id="logo">
+                    <div class="logo"></div>
+                </a>
+                <li class="home"><a href="">home</a></li>
+                <li class="home"><a href="" class="text-uppercase link">Drive</a></li>
+                <li class="home"><a href="" class="text-uppercase link">Explore</a></li>
+                <li class="home"><a href="#" class="text-uppercase link">Help</a></li>
+                <li class="home"><button  class="boton" id="login" type="">Login in</button></li>
+                <li class="home"><button class="boton" id="sign" type="">Sign up</button></li>
+            </div>
+     </nav>
+    </header>  
     <section id="seccion1">
-        <video   src="Assets/img/hero-video.mp4" width="100%" height="100%" autoplay>
-        </video>
-        <div id="cajaPadre">
-            <div class="title"> TURN MILES INTO MONEY</div>
-            <div class="subtitle">SIGN UP TO DRIVE WITH LYFT</div>
-            
-        </div>
-        
+    
+            <div class="gradiente"></div>
+            <video id="videofondo" src="Assets/img/hero-video.mp4" width="100%" height="100%" autoplay></video>
     </section>
-    <section id="seccion2">
-        
+     <section id="seccion2">
+        <div class="cajita1">
+         <h2>A RIDE IN MINUTES</h2> 
+         <p>Request a ride and you’ll be on your way in minutes.
+          Request. Ride. Repeat.</p><br>
+        <h2>SERIOUS ABOUT SAFETY</h2>
+        <p>From knowing the color of your driver’s car to our 24/7 Trust & Safety Team, we got you.</p><br>
+            <h2>HAPPY DRIVERS.</h2>
+            <h2>HAPPY RIDERS.</h2>
+            <p>Ride with us and you’ll see why 9 out of 10 rides end with five stars.</p>
+        </div>
+        <div class="celular">
+            <img src="Assets/img/phone.png" class="phone">
+        </div>
     </section>
     <section id="seccion3">
+        <div class="texto">
+            <p>WATCH</p>
+            <h3>AMPLIFY YOUR RIDE</h3><br>
+            <p>
+             Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide,
+              the device makes it easy for passengers and drivers to find each other.
+            </p>
+        </div>
+        <iframe id="video2" width="853" height="480" src="https://www.youtube.com/embed/fLSmUWOYpKw?rel=0&amp;showinfo=0" 
+        frameborder="0" allowfullscreen></iframe>  
         
     </section>
     <section id="seccion4">
+
+        <div class="textoSec4">
+        
+        <p >WATCH</p> 
+        <h3>JUNE</h3>
+        <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago
+            is empowered to start sharing the ride — and sharing her life, too.
+        </p>
+        </div>
+        <iframe id="video3" width="853" height="480" src="https://www.youtube.com/embed/v8nyGzOLsdw?rel=0&amp;showinfo=0" 
+        frameborder="0" allowfullscreen></iframe>
         
     </section>
     <footer id="pie-pagina">
         
     </footer>
-    </div>
-    <script src="Assets/js/app.js"></script>
+    
+  </div>
+    <script src='js/app.js'></script>
 </body>
 </html>
+
+
+
+    
+   
